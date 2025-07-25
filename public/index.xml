@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Learn Tech Cafe</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Learn Tech Cafe</description>
+    <generator>Hugo -- 0.148.1</generator>
+    <language>en-CA</language>
+    <lastBuildDate>Wed, 23 Jul 2025 10:56:26 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First Post</title>
+      <link>http://localhost:1313/posts/2025/20250723-my-first-post/</link>
+      <pubDate>Wed, 23 Jul 2025 10:56:26 -0400</pubDate>
+      <guid>http://localhost:1313/posts/2025/20250723-my-first-post/</guid>
+      <description>&lt;p&gt;testing123 1st post
+Do you have any feedback for us?&lt;/p&gt;
+&lt;!-- 💬 [Send us an email!](mailto:insertemailaddresshere)</description>
+    </item>
+    <item>
+      <title>About Learn Tech Cafe</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Tue, 22 Jul 2025 21:24:36 -0400</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;Grab a fresh cup! This blog is a space to explore a variety of computer skills in a relaxed, beginner-friendly environnment.&lt;/p&gt;
+&lt;p&gt;Are you:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Curious about computers?&lt;/li&gt;
+&lt;li&gt;Wondering about web development?&lt;/li&gt;
+&lt;li&gt;Contemplating learning code?&lt;/li&gt;
+&lt;li&gt;Daring to analyze data?&lt;/li&gt;
+&lt;li&gt;Guessing what GIS stands for?&lt;/li&gt;
+&lt;li&gt;And more?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Then look no further - join Robo and me as we explore the wide world of computers. Hopefully we can teach you (and ourselves) a little something as we go!&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
