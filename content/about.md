@@ -3,6 +3,7 @@ date: 2025-07-22T21:24:36-04:00
 draft: false
 title: "About Learn Tech Cafe"
 searchHidden: true
+ShowToc: false
 ---
 
 Grab a fresh cup! This blog is a space to explore a variety of computer skills in a relaxed, beginner-friendly environnment.
