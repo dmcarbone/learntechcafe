@@ -1,0 +1,62 @@
+baseURL: https://learntechcafe.com/
+languageCode: en-CA
+title: Learn Tech Cafe
+theme: PaperMod
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true # Addition: tells Hugo to allow raw HTML like <div> tags in Markdown content
+
+params:
+  homeInfoParams:
+    Title: Cultivating Computer Curiosity
+    Content: | 
+      Hello there, we're your hosts, Dan and Robo. Grab a fresh cup of your favourite beverage and relax as we explore
+      computers in a fun, beginner-friendly, stress-free way. This blog is made for learners, experimenters and
+      tech-curious minds. If you're eager to discover what computers can do - and what *you* can do with them - 
+      you've come to the right place. [Learn more about us in our about page.](/about/)
+    RoboQuote: |
+      &nbsp;
+      <div align="center">| 🤖 <em>Beep boop. Learning is just debugging your brain.</em></div>
+  defaultTheme: auto # to switch between dark or light according to browser theme
+  # ShowShareButtons: true---I don't have socials!
+  ShowReadingTime: true
+  ShowToc: true # Displays table of contents on blog posts
+  # ShowBreadCrumbs: true---how does this work? Home > Posts
+  ShowPostNavLinks: true # Adds a Previous / Next post suggestion under a single post
+  ShowCodeCopyButtons: true
+  comments: false # change to true to connect to layouts>partials>comments.html for ad-supported comments via Disqus
+
+taxonomies: # allows Hugo to generate taxonomy pages like /tags/ and /categories/.
+  category: categories
+  tag: tags
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
+
+menu:
+  main:
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 10
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 10
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 10
+    - identifier: Search
+      name: Search
+      url: /search/
+      weight: 10
