@@ -7,4 +7,4 @@ categories: ["tech"]
 ---
 testing123 1st post
 Do you have any feedback for us?
-💬 [Send us an email!](mailto:dmcarbone@outlook.com)
+<!-- 💬 [Send us an email!](mailto:insertemailaddresshere)
