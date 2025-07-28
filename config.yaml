@@ -12,14 +12,14 @@ params:
   homeInfoParams:
     Title: Cultivating Computer Curiosity
     Content: | 
-      Welcome to LearnTechCafe! I'm your host, Dan - and alongside me is my robotic co-host, ABA5! Grab a fresh cup of your
-      favourite beverage and relax as we explore computers in a fun, stress-free and beginner-friendly. This
+      Welcome to LearnTechCafe! I'm your host, Dan - and alongside me is my robotic co-host, ABA5! Grab your
+      favourite beverage and settle in as we explore computers in a fun, stress-free and beginner-friendly way. This
       blog is for money-savers, lifelong learners and anyone eager to discover what computers can do - and what
-      *you* can do with them. In this increasingly expensive world, we'll show you how you can save money using 
-      free and/or open-source tools while building digital skils. Want to know more about me? [Learn more about me in the About page.](/about/)
+      *you* can do with them. In a world where everything costs more, we'll help you build your digital skills and save money
+      using free and/or open-source tools. Want to know more about me? [Check out the About page.](/about/)
     RoboQuote: |
       &nbsp;
-      <div align="center">| 🤖 <em>Welcome, patron, to our cafe..</em></div>
+      <div align="center">| 🤖 <em>Greetings! I’m ABA5, your caffeine-powered study buddy. Let’s make tech make sense.<em></div>
   defaultTheme: auto # to switch between dark or light according to browser theme
   # ShowShareButtons: true---I don't have socials!
   ShowReadingTime: true
