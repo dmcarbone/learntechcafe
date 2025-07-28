@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Html on Learn Tech Cafe</title>
+    <title>Html on LearnTechCafe</title>
     <link>http://localhost:1313/tags/html/</link>
-    <description>Recent content in Html on Learn Tech Cafe</description>
+    <description>Recent content in Html on LearnTechCafe</description>
     <generator>Hugo -- 0.148.1</generator>
     <language>en-CA</language>
     <lastBuildDate>Wed, 23 Jul 2025 10:56:26 -0400</lastBuildDate>
