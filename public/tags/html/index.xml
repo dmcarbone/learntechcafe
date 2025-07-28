@@ -14,8 +14,8 @@
       <pubDate>Wed, 23 Jul 2025 10:56:26 -0400</pubDate>
       <guid>http://localhost:1313/posts/2025/20250723-my-first-post/</guid>
       <description>&lt;p&gt;testing123 1st post
-Do you have any feedback for us?&lt;/p&gt;
-&lt;!-- 💬 [Send us an email!](mailto:insertemailaddresshere)</description>
+Do you have any feedback for us?
+💬 &lt;a href=&#34;mailto:hello@learntechcafe.com&#34;&gt;Send us an email!&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

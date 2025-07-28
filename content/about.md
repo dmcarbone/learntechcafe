@@ -32,3 +32,7 @@ My robotic companion and co-host, expanding his horizons and upgrading from his 
 > 🤖 *I was programmed to do one thing - serve coffee at affordable prices.*
 
 A.B.A2 has graciously joined me on this journey to build *LearnTechCafe* into hub for curiosity, savings and learning!
+
+### Contact Us
+Do you have any feedback for us?
+💬 [Send us an email!](mailto:hello@learntechcafe.com)
