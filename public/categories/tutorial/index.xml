@@ -9,11 +9,11 @@
     <lastBuildDate>Mon, 28 Jul 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/tutorial/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Part 1: Create a Stylish, Zero-Ad Blog for Free</title>
-      <link>http://localhost:1313/posts/tutorials/blog/create-a-blog-tutorial/part1-create-a-stylish-zero-ad-blog-for-free/</link>
+      <title>Part 1: Create a Clean, Zero-Ad Blog for Free</title>
+      <link>http://localhost:1313/posts/tutorials/blog/part1-create-a-stylish-zero-ad-blog-for-free/</link>
       <pubDate>Mon, 28 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/tutorials/blog/create-a-blog-tutorial/part1-create-a-stylish-zero-ad-blog-for-free/</guid>
-      <description>Part 1 of our Create-a-Blog Tutorial. A beginner-friendly guide to starting a fast, ad-free blog using Hugo, GitHub, and Netlify — with zero cost and maximum control. Part 1.</description>
+      <guid>http://localhost:1313/posts/tutorials/blog/part1-create-a-stylish-zero-ad-blog-for-free/</guid>
+      <description>Part 1 of our Create-a-Blog Tutorial. A beginner-friendly guide to starting a fast, clean, ad-free blog using Hugo, GitHub, and Netlify — with zero cost and maximum control.</description>
     </item>
   </channel>
 </rss>

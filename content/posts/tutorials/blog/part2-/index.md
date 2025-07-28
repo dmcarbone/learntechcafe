@@ -1,9 +1,9 @@
 ---
-date: '2025-07-28'
-draft: false
-title: "Part 1: Create a Stylish, Zero-Ad Blog for Free"
-description: "Part 1 of our Create-a-Blog Tutorial. A beginner-friendly guide to starting a fast, ad-free blog using Hugo, GitHub, and Netlify — with zero cost and maximum control. Part 1."
-tags: ["blogging", "tutorial", "free", "beginner", "static site", "hugo", "github", "netlify"]
+date: '2025-07-29'
+draft: true
+title: "Part 2: Create a Stylish, Zero-Ad Blog for Free"
+# description: "Part 2 of our Create-a-Blog Tutorial. blah blah blah."
+tags: ["blogging", "tutorial", "free", "beginner", "static site", "hugo"]
 categories: ["web-design", "tutorial"]
 ---
 ## Welcome to _LearnTechCafe_
