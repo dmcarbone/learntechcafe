@@ -18,21 +18,22 @@ Do you have any feedback for us?&lt;/p&gt;
 &lt;!-- 💬 [Send us an email!](mailto:insertemailaddresshere)</description>
     </item>
     <item>
-      <title>About Learn Tech Cafe</title>
+      <title>About LearnTechCafe</title>
       <link>http://localhost:1313/about/</link>
       <pubDate>Tue, 22 Jul 2025 21:24:36 -0400</pubDate>
       <guid>http://localhost:1313/about/</guid>
-      <description>&lt;p&gt;Grab a fresh cup! This blog is a space to explore a variety of computer skills in a relaxed, beginner-friendly environnment.&lt;/p&gt;
-&lt;p&gt;Are you:&lt;/p&gt;
+      <description>&lt;p&gt;Grab a fresh cup! Welcome to &lt;em&gt;LearnTechCafe&lt;/em&gt; - a space to explore a variety of computer skills in a relaxed, beginner-friendly environnment, all while saving you money.&lt;/p&gt;
+&lt;p&gt;Do you have a willingness to learn? Then ask yourself, are you:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Curious about computers?&lt;/li&gt;
-&lt;li&gt;Wondering about web development?&lt;/li&gt;
-&lt;li&gt;Contemplating learning code?&lt;/li&gt;
-&lt;li&gt;Daring to analyze data?&lt;/li&gt;
-&lt;li&gt;Guessing what GIS stands for?&lt;/li&gt;
+&lt;li&gt;Budgeting while building digital skills?&lt;/li&gt;
+&lt;li&gt;Bent on building a blog?&lt;/li&gt;
+&lt;li&gt;Keen to crack keyboard shortcuts?&lt;/li&gt;
+&lt;li&gt;Daring to deep dive into data?&lt;/li&gt;
+&lt;li&gt;Contemplating coding&amp;hellip; code?&lt;/li&gt;
 &lt;li&gt;And more?&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Then look no further - join Robo and me as we explore the wide world of computers. Hopefully we can teach you (and ourselves) a little something as we go!&lt;/p&gt;</description>
+&lt;p&gt;Then look no further! Join A.B.A2 and me as we explore the wide world of computer technology, and hopefully teach you (and ourselves) a little something along the way!&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
