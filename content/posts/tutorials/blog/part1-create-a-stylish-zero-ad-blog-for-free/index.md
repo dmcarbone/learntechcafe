@@ -10,7 +10,7 @@ image: "/posts/tutorials/blog/part1-create-a-stylish-zero-ad-blog-for-free/HugoL
 ## Welcome to _LearnTechCafe_
 This is our very first post. It’s all about helping you **build your own blog for free**, with no ads, and no trials. The only “catch”? You need a willingness to learn, using an open-source tool called Hugo! So follow along with this series and build yourself a clean, professional website to get your thoughts and ideas out there for the world to see, all while saving you money.
 
-<img src="/posts/tutorials/blog/part1-create-a-stylish-zero-ad-blog-for-free/HugoLogo.svg" alt="Flowchart showing Hugo, GitHub, and Netlify for a blog setup">
+<img src="/posts/tutorials/blog/part1-create-a-stylish-zero-ad-blog-for-free/HugoLogo.svg" alt="Create a free blog with Hugo." style="display: block; margin: 0 auto;">
 
 ---
 
@@ -47,7 +47,7 @@ Sure, platforms such WordPress, Wix or Squarespace let you setup a blog with eas
 
 But what if I told you that...
 
-## You can Build a Free Blog
+## You Can Build a Free Blog
 Not only can you build a 100% free blog, but it's also:
 - **100% ad-free**
 - **Privacy friendly and ethical**
@@ -70,8 +70,8 @@ We'll teach you how to use four main tools to build your blogging website.
 
 Yes, A.B.A2, purchase. This is the only piece of the whole puzzle that costs money - if you wish to have a custom domain (like learntechcafe.com), you must purchase it. Luckily, this is optional. If you walk through this process with us, we'll set you up with a live, free domain - you just can't customize it unless you buy your own domain. We'll get to that later in this series!
 
-<img src="/posts/tutorials/blog/part1-create-a-stylish-zero-ad-blog-for-free/hugo-github-netlify-flow.svg" alt="Flowchart showing Hugo, GitHub, and Netlify for a blog setup">
-
+<img src="/posts/tutorials/blog/part1-create-a-stylish-zero-ad-blog-for-free/hugo-github-netlify-flow.svg" alt="Flowchart showing Hugo, GitHub, and Netlify for a blog setup." style="display: block; margin: 0 auto;">
+<br>
 With the above tools, you'll:
 - Write your posts in simple Markdown, a basic coding language to make it easy to write site content 
 - Publish your posts to GitHub
@@ -91,7 +91,7 @@ By the end of this series, you'll have a **fully functional blog** that:
 
 ---
 
-## Why We're doing This
+## Why We're Doing This
 This is what _LearnTechCafe_ is all about:
 Teaching you to build digital skills, and saving you money, in a fun, stress-free and beginner-friendly way!
 

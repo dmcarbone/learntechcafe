@@ -2,49 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/tags/beginner/</loc>
+    <lastmod>2025-07-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/blogging/</loc>
+    <lastmod>2025-07-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2025-07-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/free/</loc>
+    <lastmod>2025-07-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/hugo/</loc>
+    <lastmod>2025-07-29T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/</loc>
+    <lastmod>2025-07-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/tutorials/blog/part2-/</loc>
     <lastmod>2025-07-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
     <lastmod>2025-07-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/beginner/</loc>
-    <lastmod>2025-07-28T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/static-site/</loc>
+    <lastmod>2025-07-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/blogging/</loc>
-    <lastmod>2025-07-28T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-07-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-07-28T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/categories/tutorial/</loc>
+    <lastmod>2025-07-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/free/</loc>
-    <lastmod>2025-07-28T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/tutorial/</loc>
+    <lastmod>2025-07-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/web-design/</loc>
+    <lastmod>2025-07-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/github/</loc>
-    <lastmod>2025-07-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/hugo/</loc>
     <lastmod>2025-07-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/netlify/</loc>
     <lastmod>2025-07-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/tutorials/blog/part1-create-a-stylish-zero-ad-blog-for-free/</loc>
-    <lastmod>2025-07-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/static-site/</loc>
-    <lastmod>2025-07-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-07-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/tutorial/</loc>
-    <lastmod>2025-07-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/tutorial/</loc>
-    <lastmod>2025-07-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/web-design/</loc>
     <lastmod>2025-07-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/about/</loc>

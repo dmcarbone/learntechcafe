@@ -6,8 +6,18 @@
     <description>Recent content in Tutorial on LearnTechCafe</description>
     <generator>Hugo -- 0.148.1</generator>
     <language>en-CA</language>
-    <lastBuildDate>Mon, 28 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 29 Jul 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Part 2: Create a Stylish, Zero-Ad Blog for Free</title>
+      <link>http://localhost:1313/posts/tutorials/blog/part2-/</link>
+      <pubDate>Tue, 29 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/tutorials/blog/part2-/</guid>
+      <description>&lt;h2 id=&#34;welcome-tolearntechcafe&#34;&gt;Welcome to &lt;em&gt;LearnTechCafe&lt;/em&gt;&lt;/h2&gt;
+&lt;p&gt;This is our very first post. It’s all about helping you &lt;strong&gt;build your own blog for free&lt;/strong&gt;! What’s more is, there’s no ads, and no trials. The only “catch”? You need a willingness to learn! So follow along with this series and build yourself a clean, professional website to get your thoughts and ideas out there for the world to see, all while saving you money!&lt;/p&gt;
+&lt;h2 id=&#34;why-start-a-blog&#34;&gt;Why start a blog?&lt;/h2&gt;
+&lt;p&gt;Have you always wanted to start a blog, just to get your thoughts out there? Maybe you want to:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Part 1: Create a Clean, Zero-Ad Blog for Free</title>
       <link>http://localhost:1313/posts/tutorials/blog/part1-create-a-stylish-zero-ad-blog-for-free/</link>
