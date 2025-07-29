@@ -19,6 +19,8 @@ Do you have a willingness to learn? Then ask yourself, are you:
 
 Then look no further! Join A.B.A2 and me as we explore the wide world of computer technology, and hopefully teach you (and ourselves) a little something along the way!
 
+**Let's build digital skills on a budget.**
+
 ## Meet the Hosts
 
 ### Dan Carbone

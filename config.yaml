@@ -10,16 +10,16 @@ markup:
 
 params:
   homeInfoParams:
-    Title: Cultivating Computer Curiosity
+    Title: Building Digital Skills on a Budget
     Content: | 
-      Welcome to *LearnTechCafe*! I'm your host, Dan - and alongside me is my robotic co-host, A.B.A5! Grab your
+      Welcome to *LearnTechCafe*! I'm your host, Dan - and alongside me is my robotic co-host, A.B.A2! Grab your
       favourite beverage and settle in as we explore computers in a fun, stress-free and beginner-friendly way. This
       blog is for money-savers, lifelong learners and anyone eager to discover what computers can do - and what
       *you* can do with them. In a world where everything costs more, we'll help you build your digital skills and save money
       using free and/or open-source tools. Want to know more about me? [Check out the About page.](/about/)
     RoboQuote: |
       &nbsp;
-      <div align="center">| 🤖 <em>Greetings! I’m A.B.A5, your caffeine-powered study buddy. Let’s make tech make sense.<em></div>
+      <div align="center">| 🤖 <em>Greetings! I’m A.B.A2, your caffeine-powered co-host.<em></div>
   defaultTheme: auto # to switch between dark or light according to browser theme
   # ShowShareButtons: true---I don't have socials!
   ShowReadingTime: true

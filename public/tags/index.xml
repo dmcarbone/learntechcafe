@@ -30,10 +30,24 @@
       <description></description>
     </item>
     <item>
+      <title>Github</title>
+      <link>http://localhost:1313/tags/github/</link>
+      <pubDate>Tue, 29 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/github/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Hugo</title>
       <link>http://localhost:1313/tags/hugo/</link>
       <pubDate>Tue, 29 Jul 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/hugo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Netlify</title>
+      <link>http://localhost:1313/tags/netlify/</link>
+      <pubDate>Tue, 29 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/netlify/</guid>
       <description></description>
     </item>
     <item>
@@ -51,17 +65,45 @@
       <description></description>
     </item>
     <item>
-      <title>Github</title>
-      <link>http://localhost:1313/tags/github/</link>
+      <title>Ad-Free Blog</title>
+      <link>http://localhost:1313/tags/ad-free-blog/</link>
       <pubDate>Mon, 28 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/github/</guid>
+      <guid>http://localhost:1313/tags/ad-free-blog/</guid>
       <description></description>
     </item>
     <item>
-      <title>Netlify</title>
-      <link>http://localhost:1313/tags/netlify/</link>
+      <title>Blogging Tutorial</title>
+      <link>http://localhost:1313/tags/blogging-tutorial/</link>
       <pubDate>Mon, 28 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/netlify/</guid>
+      <guid>http://localhost:1313/tags/blogging-tutorial/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Build a Blog</title>
+      <link>http://localhost:1313/tags/build-a-blog/</link>
+      <pubDate>Mon, 28 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/build-a-blog/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Free Blog Hosting</title>
+      <link>http://localhost:1313/tags/free-blog-hosting/</link>
+      <pubDate>Mon, 28 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/free-blog-hosting/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Markdown</title>
+      <link>http://localhost:1313/tags/markdown/</link>
+      <pubDate>Mon, 28 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/markdown/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Static Site Generator</title>
+      <link>http://localhost:1313/tags/static-site-generator/</link>
+      <pubDate>Mon, 28 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/static-site-generator/</guid>
       <description></description>
     </item>
   </channel>
