@@ -3,6 +3,8 @@ languageCode: en-CA
 title: LearnTechCafe
 theme: PaperMod
 
+googleAnalytics: G-XV6PP4886E
+
 markup:
   goldmark:
     renderer:
