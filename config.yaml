@@ -3,7 +3,7 @@ languageCode: en-CA
 title: LearnTechCafe
 theme: PaperMod
 
-googleAnalytics: G-XV6PP4886E
+googleAnalytics: G-XV6PP4886E # Additon to add googleAnalytics. See head.html.
 
 markup:
   goldmark:
