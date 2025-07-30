@@ -22,6 +22,10 @@ params:
     RoboQuote: |
       &nbsp;
       <div align="center">| 🤖 <em>Greetings! I’m A.B.A2, your caffeine-powered co-host.<em></div>
+  
+  assets:
+    customCSS: ["css/custom.css"]
+
   defaultTheme: auto # to switch between dark or light according to browser theme
   # ShowShareButtons: true---I don't have socials!
   ShowReadingTime: true
