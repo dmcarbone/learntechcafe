@@ -26,7 +26,7 @@ params:
   # ShowShareButtons: true---I don't have socials!
   ShowReadingTime: true
   ShowToc: true # Displays table of contents on blog posts
-  # ShowBreadCrumbs: true---how does this work? Home > Posts
+  ShowBreadCrumbs: true
   ShowPostNavLinks: true # Adds a Previous / Next post suggestion under a single post
   ShowCodeCopyButtons: true
   comments: false # change to true to connect to layouts>partials>comments.html for ad-supported comments via Disqus
