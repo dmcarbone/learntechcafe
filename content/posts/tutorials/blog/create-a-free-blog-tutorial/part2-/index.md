@@ -7,3 +7,5 @@ tags: ["blogging", "tutorial", "free", "beginner", "static site", "hugo", "githu
 categories: ["web-design", "tutorial"]
 image: "/posts/tutorials/blog/part1-create-a-stylish-zero-ad-blog-for-free/HugoLogo.svg"
 ---
+
+hello123
