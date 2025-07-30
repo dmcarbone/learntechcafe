@@ -26,6 +26,11 @@ params:
   assets:
     customCSS: ["css/custom.css"]
 
+  label:
+    icon: images/LTC-Logo+Text-min.png
+    iconHeight: 40
+    text: LearnTechCafe
+
   defaultTheme: auto # to switch between dark or light according to browser theme
   # ShowShareButtons: true---I don't have socials!
   ShowReadingTime: true
