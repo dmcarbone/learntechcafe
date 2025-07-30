@@ -8,4 +8,4 @@ categories: ["web-design", "tutorial"]
 image: "/posts/tutorials/blog/part1-create-a-stylish-zero-ad-blog-for-free/HugoLogo.svg"
 ---
 
-hello1234
+hello12345
