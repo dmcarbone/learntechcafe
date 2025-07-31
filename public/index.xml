@@ -6,8 +6,15 @@
     <description>Recent content on LearnTechCafe</description>
     <generator>Hugo -- 0.148.1</generator>
     <language>en-CA</language>
-    <lastBuildDate>Mon, 28 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 29 Jul 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>test part 2</title>
+      <link>http://localhost:1313/posts/tutorials/blog/create-a-free-blog-tutorial/part2-/</link>
+      <pubDate>Tue, 29 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/tutorials/blog/create-a-free-blog-tutorial/part2-/</guid>
+      <description>Part 2 of our Create-a-Free-Blog Tutorial. A beginner-friendly guide to starting a fast, clean, ad-free blog using Hugo, GitHub, and Netlify — with zero cost and maximum control.</description>
+    </item>
     <item>
       <title>Create a Clean, Zero-Ad Blog for Free</title>
       <link>http://localhost:1313/posts/tutorials/blog/create-a-free-blog-tutorial/part1-create-a-clean-zero-ad-blog-for-free/</link>
@@ -21,6 +28,8 @@
       <pubDate>Tue, 22 Jul 2025 21:24:36 -0400</pubDate>
       <guid>http://localhost:1313/about/</guid>
       <description>&lt;p&gt;Grab a fresh cup! Welcome to &lt;em&gt;LearnTechCafe&lt;/em&gt; - a space to explore a variety of computer skills in a relaxed, beginner-friendly environnment, all while saving you money.&lt;/p&gt;
+&lt;img src=&#34;http://localhost:1313/images/LTC-Logo-only-min.png&#34; alt=&#34;LearnTechCafe&#39;s logo, a blue robot holding a steaming cup of coffee.&#34; style=&#34;display: block; margin: 0 auto; width: 150px; height; auto;&#34;&gt;
+&lt;br&gt;
 &lt;p&gt;Do you have a willingness to learn? Then ask yourself, are you:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Curious about computers?&lt;/li&gt;

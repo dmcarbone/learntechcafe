@@ -27,7 +27,7 @@ params:
     customCSS: ["css/custom.css"]
 
   label:
-    icon: images/LTC-Logo+Text-min.png
+    icon: images/LTC-Logo-only-min.png
     iconHeight: 40
     text: LearnTechCafe
 

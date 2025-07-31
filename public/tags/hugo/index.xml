@@ -6,8 +6,15 @@
     <description>Recent content in Hugo on LearnTechCafe</description>
     <generator>Hugo -- 0.148.1</generator>
     <language>en-CA</language>
-    <lastBuildDate>Mon, 28 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 29 Jul 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>test part 2</title>
+      <link>http://localhost:1313/posts/tutorials/blog/create-a-free-blog-tutorial/part2-/</link>
+      <pubDate>Tue, 29 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/tutorials/blog/create-a-free-blog-tutorial/part2-/</guid>
+      <description>Part 2 of our Create-a-Free-Blog Tutorial. A beginner-friendly guide to starting a fast, clean, ad-free blog using Hugo, GitHub, and Netlify — with zero cost and maximum control.</description>
+    </item>
     <item>
       <title>Create a Clean, Zero-Ad Blog for Free</title>
       <link>http://localhost:1313/posts/tutorials/blog/create-a-free-blog-tutorial/part1-create-a-clean-zero-ad-blog-for-free/</link>

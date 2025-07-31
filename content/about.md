@@ -8,6 +8,9 @@ ShowToc: false
 
 Grab a fresh cup! Welcome to *LearnTechCafe* - a space to explore a variety of computer skills in a relaxed, beginner-friendly environnment, all while saving you money.
 
+<img src="/images/LTC-Logo-only-min.png" alt="LearnTechCafe's logo, a blue robot holding a steaming cup of coffee." style="display: block; margin: 0 auto; width: 150px; height; auto;">
+<br>
+
 Do you have a willingness to learn? Then ask yourself, are you:
 - Curious about computers?
 - Budgeting while building digital skills?
