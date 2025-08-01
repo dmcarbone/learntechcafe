@@ -31,6 +31,9 @@ params:
     iconHeight: 40
     text: LearnTechCafe
 
+  cover:
+    LinkFullImages: true
+
   defaultTheme: auto # to switch between dark or light according to browser theme
   # ShowShareButtons: true---I don't have socials!
   ShowReadingTime: true

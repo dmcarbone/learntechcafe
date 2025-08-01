@@ -5,13 +5,15 @@ title: "Create a Clean, Zero-Ad Blog for Free"
 description: "Part 1 of our Create-a-Free-Blog Tutorial. A beginner-friendly guide to starting a fast, clean, ad-free blog using Hugo, GitHub, and Netlify — with zero cost and maximum control."
 tags: ["blogging tutorial", "free blog hosting", "ad-free blog", "beginner", "static site generator", "hugo", "github", "netlify", "build a blog", "markdown"]
 categories: ["blogging", "web development", "create a blog tutorial"]
+cover:
+    image: "/posts/tutorials/blog/part1-create-a-stylish-zero-ad-blog-for-free/HugoLogo.svg"
+    alt: "Create a free blog with Hugo, static site generator."
+    caption: "Create a free blog with Hugo, a static site generator."
 image: "/posts/tutorials/blog/part1-create-a-stylish-zero-ad-blog-for-free/HugoLogo.svg"
 ---
 
 ## Create-a-Free-Blog -- Part 1
 This is our very first post here at _LearnTechCafe_. It’s all about helping you **build your own blog for free**, with no ads, and no trials. The only “catch”? You need a willingness to learn, using an open-source tool called Hugo (more on that later). So follow along with this series and build yourself a clean, professional website to get your thoughts and ideas out there for the world to see, all while saving you money.
-
-<img src="/posts/tutorials/blog/part1-create-a-stylish-zero-ad-blog-for-free/HugoLogo.svg" alt="Create a free blog with Hugo." style="display: block; margin: 0 auto;">
 
 ---
 
@@ -71,7 +73,9 @@ We'll teach you how to use four main tools to build your blogging website.
 
 Yes, A.B.A2, purchase. This is the only piece of the whole puzzle that costs money -- if you wish to have a custom domain (like learntechcafe.com), you must purchase it. Luckily, this is optional. If you walk through this process with us, we'll set you up with a live, free domain -- you just can't customize it unless you buy your own domain. We'll get to that later in this series!
 
-<img src="/posts/tutorials/blog/part1-create-a-stylish-zero-ad-blog-for-free/hugo-github-netlify-flow.svg" alt="Flowchart showing Hugo, GitHub, and Netlify for a blog setup." style="display: block; margin: 0 auto;">
+<a href="/posts/tutorials/blog/part1-create-a-stylish-zero-ad-blog-for-free/hugo-github-netlify-flow.svg" target="_blank" rel="noopener noreferrer">
+  <img src="/posts/tutorials/blog/part1-create-a-stylish-zero-ad-blog-for-free/hugo-github-netlify-flow.svg" alt="Flowchart showing Hugo, GitHub, and Netlify for a blog setup." style="display: block; margin: 0 auto;">
+</a>
 <br>
 
 With the above tools, you'll:
