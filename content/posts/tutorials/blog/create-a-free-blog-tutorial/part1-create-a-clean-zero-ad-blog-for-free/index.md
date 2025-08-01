@@ -23,7 +23,7 @@ Have you always wanted to start a blog, just to get your thoughts out there? May
 - Write and share book reviews
 - Share your tech journey
 - Create a personal, digital workspace
-- > 🤖 Document and track caffeine consumption publicly
+- > {{< bot >}} Document and track caffeine consumption publicly
 - Or just learn how to build a website in general?
 
 If you've ever gone to Google and typed something like:
@@ -69,7 +69,7 @@ We'll teach you how to use four main tools to build your blogging website.
 3. **GitHub** -- A place to store your site content and code for free
 4. **Netlify** -- A service that hosts your site online, for free
     -  _Bonus_ -- We'll also show you how to purchase a custom domain using Netlify.
-        > 🤖 _*ZZZT **Purchase** a custom domain?_
+        > {{< bot >}} _*ZZZT **Purchase** a custom domain?_
 
 Yes, A.B.A2, purchase. This is the only piece of the whole puzzle that costs money -- if you wish to have a custom domain (like learntechcafe.com), you must purchase it. Luckily, this is optional. If you walk through this process with us, we'll set you up with a live, free domain -- you just can't customize it unless you buy your own domain. We'll get to that later in this series!
 
@@ -96,7 +96,7 @@ By the end of this series, you'll have a **fully functional blog** that:
 
 ## Why We're Doing This
 This is what _LearnTechCafe_ is all about: **building digital skills on a budget**, in a fun, stress-free and beginner-friendly way!
-> 🤖 _$$$!_
+> {{< bot >}} _$$$!_
 
 ---
 

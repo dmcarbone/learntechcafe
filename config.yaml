@@ -21,7 +21,7 @@ params:
       using free and/or open-source tools. Want to know more about me? [Check out the About page.](/about/)
     RoboQuote: |
       &nbsp;
-      <div align="center">| 🤖 <em>Greetings! I’m A.B.A2, your caffeine-powered co-host.<em></div>
+      <div align="center">| <img src="/images/ABA2-min.png" alt="🤖" style="width:1.1em; height:1.1em; vertical-align: -0.2em; display: inline-block; margin: 0; padding: 0; border: 0;"> <em>Greetings! I’m A.B.A2, your caffeine-powered co-host.<em></div>
   
   assets:
     customCSS: ["css/custom.css"]

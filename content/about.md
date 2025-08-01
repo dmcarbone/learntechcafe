@@ -34,7 +34,7 @@ This blog is my experiment - a place where I document my cost-saving discoveries
 
 ### A.B.A2 (Advanced Barista Automton, version 2)
 My robotic companion and co-host, expanding his horizons and upgrading from his humble beginnings as a barista, to learn more about his computer heritage.
-> 🤖 *I was programmed to do one thing - serve coffee at affordable prices.*
+> {{< bot >}} *I was programmed to do one thing - serve coffee at affordable prices.*
 
 A.B.A2 has graciously joined me on this journey to build *LearnTechCafe* into hub for curiosity, savings and learning!
 
