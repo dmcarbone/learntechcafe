@@ -40,7 +40,7 @@ params:
   ShowToc: true # Displays table of contents on blog posts
   ShowBreadCrumbs: true
   ShowPostNavLinks: true # Adds a Previous / Next post suggestion under a single post
-  ShowCodeCopyButtons: true
+  ShowCodeCopyButtons: true # Allows copying code markdown through a copy button
   comments: false # change to true to connect to layouts>partials>comments.html for ad-supported comments via Disqus
 
 taxonomies: # allows Hugo to generate taxonomy pages like /tags/ and /categories/.

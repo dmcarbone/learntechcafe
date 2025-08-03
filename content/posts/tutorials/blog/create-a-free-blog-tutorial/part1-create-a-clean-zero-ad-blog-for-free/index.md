@@ -107,4 +107,4 @@ In Part 2 of our Create-a-Free-Blog Tutorial, we'll walk you through installing 
 
 This blog is still super-new, so we don't have an email-list yet. If this is something you'd be interested in seeing, please, reach out to us! Feedback is always appreciated.
 <br>
-💬 [Send us an email!](mailto:hello@learntechcafe.com)
+💬 [Send us an message!](mailto:hello@learntechcafe.com)

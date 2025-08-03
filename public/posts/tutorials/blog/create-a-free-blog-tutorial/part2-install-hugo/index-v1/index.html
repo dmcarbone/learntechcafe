@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Install Hugo, Pick a Theme, and Run Your Blog Locally | LearnTechCafe</title>
+<meta name="keywords" content="blogging tutorial, free blog hosting, ad-free blog, beginner, static site generator, hugo, github, netlify, build a blog, markdown">
+<meta name="description" content="Part 2 of our Create-a-Free-Blog Tutorial. We&#39;ll walk you through installing Hugo static site generator, picking a theme for your blog and running you new site locally in a web-viewer.">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/posts/tutorials/blog/create-a-free-blog-tutorial/part2-install-hugo/index-v1/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.34e3ca243effae808e8cecc8570d341d56b7e69ec48f7bccb73e96cf9bef477d.css" integrity="sha256-NOPKJD7/roCOjOzIVw00HVa35p7Ej3vMtz6Wz5vvR30=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/tutorials/blog/create-a-free-blog-tutorial/part2-install-hugo/index-v1/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="LearnTechCafe (Alt + H)">
+                <img src="http://localhost:1313/images/LTC-Logo-only-min.png" alt="" aria-label="logo"
+                    height="40">LearnTechCafe</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/categories/" title="Categories">
+                    <span>Categories</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/archives/" title="Archives">
+                    <span>Archives</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Posts</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/tutorials/">Tutorials</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/tutorials/blog/">Blogging</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/tutorials/blog/create-a-free-blog-tutorial/">Create a Free Blog Tutorial</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Install Hugo, Pick a Theme, and Run Your Blog Locally
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="35" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h1>
+    <div class="post-description">
+      Part 2 of our Create-a-Free-Blog Tutorial. We&#39;ll walk you through installing Hugo static site generator, picking a theme for your blog and running you new site locally in a web-viewer.
+    </div>
+    <div class="post-meta"><span title='2025-08-01 00:00:00 +0000 UTC'>August 1, 2025</span>&nbsp;·&nbsp;7 min
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#heading" aria-label="]">]</a></li>
+                <li>
+                    <a href="#create-a-free-blog--part-2" aria-label="Create-a-Free-Blog &ndash; Part 2">Create-a-Free-Blog &ndash; Part 2</a></li>
+                <li>
+                    <a href="#checklist" aria-label="Checklist">Checklist</a></li>
+                <li>
+                    <a href="#what-is-hugo" aria-label="What is Hugo?">What is Hugo?</a></li>
+                <li>
+                    <a href="#install-hugo-and-git" aria-label="Install Hugo and Git">Install Hugo and Git</a><ul>
+                        
+                <li>
+                    <a href="#windows" aria-label="Windows">Windows</a></li>
+                <li>
+                    <a href="#macos" aria-label="macOS">macOS</a></li>
+                <li>
+                    <a href="#linux" aria-label="Linux">Linux</a></li></ul>
+                </li>
+                <li>
+                    <a href="#install-visual-code-studio" aria-label="Install Visual Code Studio">Install Visual Code Studio</a></li>
+                <li>
+                    <a href="#create-your-hugo-site" aria-label="Create Your Hugo Site">Create Your Hugo Site</a></li>
+                <li>
+                    <a href="#select-and-install-a-theme-for-your-blog" aria-label="Select and Install a Theme for Your Blog">Select and Install a Theme for Your Blog</a></li>
+                <li>
+                    <a href="#create-your-first-post" aria-label="Create Your First Post">Create Your First Post</a></li>
+                <li>
+                    <a href="#run-the-local-server" aria-label="Run the Local Server">Run the Local Server</a></li>
+                <li>
+                    <a href="#coming-up-next" aria-label="Coming Up Next">Coming Up Next</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h2 id="heading">]<a hidden class="anchor" aria-hidden="true" href="#heading">#</a></h2>
+<h2 id="create-a-free-blog--part-2">Create-a-Free-Blog &ndash; Part 2<a hidden class="anchor" aria-hidden="true" href="#create-a-free-blog--part-2">#</a></h2>
+<p>Today we&rsquo;re going to get hands-on and generate a blog locally using Hugo. This means that it won&rsquo;t be live on the internet yet -that&rsquo;s for Part 3! If you need a refresher on the what we&rsquo;re trying to do, see <a href="https://learntechcafe.com/posts/tutorials/blog/create-a-free-blog-tutorial/part1-create-a-clean-zero-ad-blog-for-free/">Part 1</a>. To recap, we will generate your intial blog website locally using Hugo, pick a theme from the Hugo website&rsquo;s many free themes, install that theme, generate your site locally and view it in-browser! That&rsquo;s right, you&rsquo;ll get to see you site up and running locally before you know it.</p>
+<hr>
+<h2 id="checklist">Checklist<a hidden class="anchor" aria-hidden="true" href="#checklist">#</a></h2>
+<p>Here&rsquo;s a list of everything you&rsquo;ll need in today&rsquo;s lesson. Don&rsquo;t worry, we&rsquo;ll go over each in more detail.</p>
+<ul>
+<li>A computer with a stable internet connecion (Windows, Mac or Linux &ndash; the process is the same)</li>
+<li>A command line tool for a few basic commands.</li>
+<li>A code editor (recommend using Visual Code Studio)</li>
+</ul>
+<h2 id="what-is-hugo">What is Hugo?<a hidden class="anchor" aria-hidden="true" href="#what-is-hugo">#</a></h2>
+<p>Hugo is a free, open-source static site generator written in Go (a programming language, you don&rsquo;t need to worry about the details for now). It generates you a site based on a preset-theme, and you as the user can create content for that site using Markdown, a simple foramtting language. A static site generator is a tool that builds web pages; it compiles  content into static files that can be hosted anywhere &ndash; making your site faster, more secure, and easier to maintain compared to xxx.</p>
+<hr>
+<h2 id="install-hugo-and-git">Install Hugo and Git<a hidden class="anchor" aria-hidden="true" href="#install-hugo-and-git">#</a></h2>
+<p>I&rsquo;m going to breakdown how to install Hugo for the big three operating systems. If you need more detail than I provide here, please see the <a href="https://gohugo.io/installation/">Hugo website</a> for instalation instruction .Let&rsquo;s open up your command line tool and install Hugo. All operating systems have one pre-installed. You&rsquo;ll also need to install <strong>Git</strong>, which allows the installaion of various themese for Hugo.</p>
+<h3 id="windows">Windows<a hidden class="anchor" aria-hidden="true" href="#windows">#</a></h3>
+<ol>
+<li>Install a package manager. I recommend Scoop, an open-source package manager. In Windows, search for <strong>PowerShell</strong>, right click and <strong>Run as Adminstrator</strong>. Type the following command and press Enter:</li>
+</ol>
+<pre tabindex="0"><code>Set-ExecutionPolicy RemoteSigned -scope CurrentUser
+</code></pre><p>When prompted, type Y and press Enter.
+2. Install Scoop using the same method, type this in a press Enter:</p>
+<pre tabindex="0"><code>irm get.scoop.sh | iex
+</code></pre><ol start="3">
+<li>Install Hugo by typing the folowing, then press Enter. We are installing the extended version of Hugo, which provide extra featres that some themes need.</li>
+</ol>
+<pre tabindex="0"><code>scoop install hugo-extended
+</code></pre><ol start="4">
+<li>Now, verify that hugo installed correctly. Run:</li>
+</ol>
+<pre tabindex="0"><code>hugo version
+</code></pre><p>You should see something like this returned in the terminal:</p>
+<pre tabindex="0"><code>hugo v0.xx.x-XXXXXXX+extended windows/amd64
+</code></pre><ol start="5">
+<li>You must also install Git for Windows. This is required for theme installation. Follow these <a href="https://git-scm.com/downloads/win">instructions</a>, just click the first &lsquo;Click here to donwload&rsquo; link under the title &lsquo;Download for Windows&rsquo;. Open the downloaded file and follow the installation instrctions to install Git.</li>
+</ol>
+<h3 id="macos">macOS<a hidden class="anchor" aria-hidden="true" href="#macos">#</a></h3>
+<ol>
+<li>Install a package manager. Homebrew is the most common package manager on macOS. If you don&rsquo;t have it installed already, first, open your terminal and paste the following command.</li>
+</ol>
+<pre tabindex="0"><code>/bin/bash -c &#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&#34;
+</code></pre><p>Follow the instructions on-screen, it may ask for your Mac password. This will install Homebrew for you.
+2. Once Homebrew is installed, run:</p>
+<pre tabindex="0"><code>brew install hugo
+</code></pre><p>This installs the extended version of Hugo, which provides extra features that some themes require.
+3. Install Hugo by typing the folowing, then press Enter. We are installing the extended version of Hugo, which provide extra featres that some themes need.</p>
+<pre tabindex="0"><code>scoop install hugo-extended
+</code></pre><ol start="4">
+<li>Now, check that Hugo installed correctly. Run:</li>
+</ol>
+<pre tabindex="0"><code>hugo version
+</code></pre><p>You should see something like this return in the terminal:
+hugo v0.xx.x+extended darwin/arm64 (or amd64)
+5. You must also install Git. Run:</p>
+<pre tabindex="0"><code>brew install git
+</code></pre><h3 id="linux">Linux<a hidden class="anchor" aria-hidden="true" href="#linux">#</a></h3>
+<p>Note that these instructions are for Linux Mint 22.1 Cinnamon &ndash; instructions may very depending on the distruction.</p>
+<ol>
+<li>Download the latest Hugo extended version manually. Go to the <a href="https://github.com/gohugoio/hugo/releases">official Hugo GitHub Releases page</a>, find the latest version of the following and download it to your <strong>Downloads</strong> folder.</li>
+</ol>
+<pre tabindex="0"><code>hugo_extended_0.xx.x_Linux-64bit.tar.gz
+</code></pre><ol start="2">
+<li>Open the terminal and run the following. See <a href="https://gohugo.io/installation/linux/#prebuilt-binaries">Linux installing instructions</a> for more details.</li>
+</ol>
+<pre tabindex="0"><code>cd ~/Downloads
+tar -xzf hugo_extended_0.xx.x_Linux-64bit.tar.gz
+</code></pre><p>This unzips a hugo binary file.
+Move it to a directory in your PATH. In terminal, run:</p>
+<pre tabindex="0"><code>sudo mv hugo /usr/local/bin/
+</code></pre><p>Then, make it executable:</p>
+<pre tabindex="0"><code>sudo chmod +x /usr/local/bin/hugo
+</code></pre><ol start="3">
+<li>Confirm it works:</li>
+</ol>
+<pre tabindex="0"><code>hugo version
+</code></pre><p>You should see something like the following returned:</p>
+<pre tabindex="0"><code>hugo v0.xx.x+extended linux/amd64
+</code></pre><ol start="4">
+<li>Install Git for themes. In terminal, run:</li>
+</ol>
+<pre tabindex="0"><code>sudo apt install git
+</code></pre><p>That sums it up for how to Install Hugo and Git!</p>
+<hr>
+<h2 id="install-visual-code-studio">Install Visual Code Studio<a hidden class="anchor" aria-hidden="true" href="#install-visual-code-studio">#</a></h2>
+<p>Now that Hugo and Git are installed, you should install a code editor if you don&rsquo;t have one aleady. I recommend Visual Code Studio. This is pretty straightforward, simply <a href="https://code.visualstudio.com/download">download the file</a> for your operating system and follow the installation instructions.</p>
+<hr>
+<h2 id="create-your-hugo-site">Create Your Hugo Site<a hidden class="anchor" aria-hidden="true" href="#create-your-hugo-site">#</a></h2>
+<p>Now that Hugo is installed, you have all the tools we need to create your site. From here on out, the instructions for each operating system are largely the same.</p>
+<ol>
+<li>Open your terminal. Before entering the code below, let&rsquo;s understand what we&rsquo;re about to do. Insert explanation of hugo folder creation. Where it says <em>myblog</em>, replace this with the same of your website (don&rsquo;t worry, you can change this later). I recommend not using any spaces. This will be the name of a root folder containing all files for your future blog - hugo will generate them automatically. Enter the code below and press Enter:</li>
+</ol>
+<pre tabindex="0"><code>hugo new site myblog
+</code></pre><ol start="2">
+<li>Now, in you computer&rsquo;s folder explorer, locate the folder you just created (in the example above, we used the name <em>myblog</em>). If you open it up, you will see many folders</li>
+</ol>
+<p><strong>EDIT Insert image of myblog folder example</strong></p>
+<h2 id="select-and-install-a-theme-for-your-blog">Select and Install a Theme for Your Blog<a hidden class="anchor" aria-hidden="true" href="#select-and-install-a-theme-for-your-blog">#</a></h2>
+<p>Now for the exciting part! Go to the <a href="https://themes.gohugo.io/">Hugo Themes website</a> and explorer the available free themse. Click on several and explore the various styles of website your interested in. Each theme is curated by a open-source contributor - big should out to their hard work! In this tutorial, we will be using the <a href="https://themes.gohugo.io/themes/hugo-papermod/">PaperMod theme</a>, which is clean and professional-looking. It just so happens that&rsquo;s the theme we use here at <em>LearnTechCafe</em>!</p>
+<p>I recommend using PaperMod so you can follow along with this tutorial more easily, however the same installation principles apply all themese.</p>
+<p>Here&rsquo;s how installation works. Each theme is maintained in a GitHub repository (repo). You have two options when using a one of theses themes:</p>
+<ol>
+<li>Connect to the live repo, and receive live updates as you build you website. We will not show this option in this tutorial.</li>
+<li>Download the theme from the live repo, and use the downloaded, static copy of the theme in your website. This is the option I recommend for beginners, since a static copy of the theme will never be changes, thus not breaking your website accidently.</li>
+</ol>
+<p>To install a static copy of the PaperMod theme just go to the theme&rsquo;s page on the Hugo website <a href="https://themes.gohugo.io/themes/hugo-papermod/">here</a> and click <strong>Download</strong>. It will take you to the GitHub repo for that theme (PaperMod is maintained by Aditya Lange &ndash; thanks!). Select the green <strong>&lt;&gt; Code</strong> button and then <strong>Download ZIP</strong>.</p>
+<p><strong>EDIT insert image of repo page, highlight green code button</strong></p>
+<p>Go to your <strong>Downloads</strong> folder and unzip the file you just downloaded. Copy this unzipped folder. Open your local website folder you just created, in this case, <strong>myblog</strong> and open the <strong>themes folder</strong>. It should be empty. Paste your copied theme here. Done!</p>
+<h2 id="create-your-first-post">Create Your First Post<a hidden class="anchor" aria-hidden="true" href="#create-your-first-post">#</a></h2>
+<p>Open your terminal. To generate your first post, run:</p>
+<pre tabindex="0"><code>hugo new posts/my-first-post.md
+</code></pre><p>Change <strong>my-first-post</strong> to any name you&rsquo;d like. You can always change it later in the folders if you&rsquo;d rather work manually with folders - check out myblog -&gt; posts -&gt; my-first-post.md. Just renamed it there! Or, create a new file there manually, just make sure it ends in the extension <strong>md</strong>. Open the post in any text editor to view the content, although I recommend opening it in VS Studio. Note that <strong>draft = false</strong>. Add one sentence below the final **&mdash;$$. It doesn&rsquo;t matter what your write, just add some quick content. Save.</p>
+<h2 id="run-the-local-server">Run the Local Server<a hidden class="anchor" aria-hidden="true" href="#run-the-local-server">#</a></h2>
+<p>Now let&rsquo;s see what your new site actually looks like locally! Run this command in terminal:</p>
+<pre tabindex="0"><code>hugo server
+</code></pre><p>Visit <strong>http://localhost:1313/</strong> in your browser.</p>
+<p><strong>Congradulations!</strong> You now have a basic blog running on your machine!</p>
+<p><strong>EDIT remember to get them to change .toml to .yaml as early a possible</strong></p>
+<p><strong>EDIT I want to insert some sort of cheatsheet - one for markdown and one for Hugo commands</strong></p>
+<h2 id="coming-up-next">Coming Up Next<a hidden class="anchor" aria-hidden="true" href="#coming-up-next">#</a></h2>
+<p>In Part 3 of our Create-a-Free-Blog Tutorial, we&rsquo;ll walk you through some customziation and how to get your blog running live online!</p>
+<hr>
+<p>This blog is still super-new, so we don&rsquo;t have an email-list yet. If this is something you&rsquo;d be interested in seeing, please, reach out to us! Feedback is always appreciated.
+<br>
+💬 [Send us an email!](mailto:hello@learntechcaf</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/blogging-tutorial/">Blogging Tutorial</a></li>
+      <li><a href="http://localhost:1313/tags/free-blog-hosting/">Free Blog Hosting</a></li>
+      <li><a href="http://localhost:1313/tags/ad-free-blog/">Ad-Free Blog</a></li>
+      <li><a href="http://localhost:1313/tags/beginner/">Beginner</a></li>
+      <li><a href="http://localhost:1313/tags/static-site-generator/">Static Site Generator</a></li>
+      <li><a href="http://localhost:1313/tags/hugo/">Hugo</a></li>
+      <li><a href="http://localhost:1313/tags/github/">Github</a></li>
+      <li><a href="http://localhost:1313/tags/netlify/">Netlify</a></li>
+      <li><a href="http://localhost:1313/tags/build-a-blog/">Build a Blog</a></li>
+      <li><a href="http://localhost:1313/tags/markdown/">Markdown</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="http://localhost:1313/posts/tutorials/blog/create-a-free-blog-tutorial/part1-create-a-clean-zero-ad-blog-for-free/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>Create a Clean, Zero-Ad Blog for Free</span>
+  </a>
+  <a class="next" href="http://localhost:1313/posts/tutorials/blog/create-a-free-blog-tutorial/part2-install-hugo/">
+    <span class="title">Next »</span>
+    <br>
+    <span>Install Hugo, Pick a Theme, and Run Your Blog Locally</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="http://localhost:1313/">LearnTechCafe</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>
