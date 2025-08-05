@@ -145,7 +145,7 @@
     <div class="post-description">
       Part 3 of our Create-a-Free-Blog Tutorial. Learn how to publish your blog online using GitHub and Netlify — totally free and ad-free.
     </div>
-    <div class="post-meta"><span title='2025-08-04 00:00:00 +0000 UTC'>August 4, 2025</span>&nbsp;·&nbsp;3 min
+    <div class="post-meta"><span title='2025-08-04 00:00:00 +0000 UTC'>August 4, 2025</span>&nbsp;·&nbsp;6 min
 
 </div>
   </header> 
@@ -168,7 +168,19 @@
                 <li>
                     <a href="#create-a-github-repository" aria-label="Create a GitHub Repository">Create a GitHub Repository</a></li>
                 <li>
-                    <a href="#push-your-hugo-blog-to-github" aria-label="Push Your Hugo Blog to GitHub">Push Your Hugo Blog to GitHub</a>
+                    <a href="#initially-push-your-hugo-blog-to-github" aria-label="Initially Push Your Hugo Blog to GitHub">Initially Push Your Hugo Blog to GitHub</a></li>
+                <li>
+                    <a href="#how-to-update-your-blog-to-github-manually" aria-label="How to Update Your Blog to GitHub Manually">How to Update Your Blog to GitHub Manually</a></li>
+                <li>
+                    <a href="#deploy-your-blog-on-netlify" aria-label="Deploy Your Blog on Netlify">Deploy Your Blog on Netlify</a></li>
+                <li>
+                    <a href="#final-tweak" aria-label="Final Tweak">Final Tweak</a></li>
+                <li>
+                    <a href="#optional-add-a-custom-domain" aria-label="Optional: Add a Custom Domain">Optional: Add a Custom Domain</a></li>
+                <li>
+                    <a href="#recap" aria-label="Recap">Recap</a></li>
+                <li>
+                    <a href="#coming-up-next" aria-label="Coming Up Next">Coming Up Next</a>
                 </li>
             </ul>
         </div>
@@ -199,63 +211,94 @@
 <li>Click <strong>Create repository</strong></li>
 <li>Copy the <strong>HTTPS URL</strong> it gives you (e.g. <code>https://github.com/yourname/myblog.git</code>)
 <a href="/posts/tutorials/blog/create-a-free-blog-tutorial/part3-publish-blog-live/myblogrepositoryurl.png" target="_blank" rel="noopener noreferrer">
-<img src="/posts/tutorials/blog/create-a-free-blog-tutorial/part3-publish-blog-live/myblogrepositoryurl.png" alt="In GitHub, select New repository." style="display: block; margin: 0 auto;">
+<img src="/posts/tutorials/blog/create-a-free-blog-tutorial/part3-publish-blog-live/myblogrepositoryurl.png" alt="Copy your HTTPS url from GitHub." style="display: block; margin: 0 auto;">
 </a></li>
 </ol>
 <hr>
-<h2 id="push-your-hugo-blog-to-github">Push Your Hugo Blog to GitHub<a hidden class="anchor" aria-hidden="true" href="#push-your-hugo-blog-to-github">#</a></h2>
-<p>Open a terminal and run:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cd path/to/myblog
-</span></span><span style="display:flex;"><span>git init
-</span></span><span style="display:flex;"><span>git add .
-</span></span><span style="display:flex;"><span>git commit -m <span style="color:#e6db74">&#34;Initial commit&#34;</span>
-</span></span><span style="display:flex;"><span>git remote add origin https://github.com/yourname/myblog.git
-</span></span><span style="display:flex;"><span>git branch -M main
-</span></span><span style="display:flex;"><span>git push -u origin main
-</span></span></code></pre></div><blockquote>
-<p><img src="/images/ABA2-min.png" alt="🤖" style="width:1.1em; height:1.1em; vertical-align: -0.2em; display: inline-block; margin: 0; padding: 0; border: 0;"> You’ll only need to set the remote and branch once. After that, you can just git add, commit, and push to update your blog.</p></blockquote>
-<p>Deploy Your Blog on Netlify</p>
-<p>Now let’s get it online with Netlify:
-Log into Netlify
-Click Add new site &gt; Import an existing project
-Choose GitHub and authorize Netlify to access your account
-Select your myblog  repository
-Configure the build settings:
-Build command: hugo
-Publish directory: public
-Click Deploy Site</p>
+<h2 id="initially-push-your-hugo-blog-to-github">Initially Push Your Hugo Blog to GitHub<a hidden class="anchor" aria-hidden="true" href="#initially-push-your-hugo-blog-to-github">#</a></h2>
+<p>Locate your blog folder and record the path &ndash; you&rsquo;ll use this a lot. Open a terminal and run <code>cd</code> followed by the path to you blog folder. Here&rsquo;s an example using <code>myblog</code>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cd /home/dan/Documents/website/myblog
+</span></span></code></pre></div><p>Now run this in terminal, replacing the url with the <strong>HTTPS URL</strong> you obtained from your new GitHub repository. This sets the remote and branch; which allows you to sync changes made on you local blog files to you GitHub repo.</p>
+<pre tabindex="0"><code>git init
+git add .
+git commit -m &#34;Initial commit&#34;
+git remote add origin https://github.com/yourname/myblog.git
+git branch -M main
+git push -u origin main
+</code></pre><blockquote>
+<p><img src="/images/ABA2-min.png" alt="🤖" style="width:1.1em; height:1.1em; vertical-align: -0.2em; display: inline-block; margin: 0; padding: 0; border: 0;"> You’ll only need to set the remote and branch once, using the terminal.</p></blockquote>
+<p>After setting the remote and branch, from now on you can edit your local files, then <strong>push</strong> the changes to GitHub by <strong>committing</strong> manually using VS Code. You&rsquo;ll only need to touch the terminal to run your local server from now on!</p>
+<h2 id="how-to-update-your-blog-to-github-manually">How to Update Your Blog to GitHub Manually<a hidden class="anchor" aria-hidden="true" href="#how-to-update-your-blog-to-github-manually">#</a></h2>
+<p>Here&rsquo;s the process you will follow from now on to make edits to your blog and push the changes to your GitHub repo. After that, we&rsquo;ll use Netlify to publish live.</p>
+<ol>
+<li>Open up a post in VS Code, edit the content (just add a few words) and save it. Now, on the pane on the left hand side of the screen, select the <strong>Source Control</strong> tab. See image below.</li>
+<li>Next, you should see the change you just made (and any other changes you&rsquo;ve made as well) listed under the <strong>Changes</strong> dropdown. Click the <code>+</code> button to <strong>Stage Changes</strong>. There is can also an option to <strong>Stage All Changes</strong> that appears if you hover over the <strong>Changes</strong> title. Doing this pushes you changes to the repo dropdown, called <strong>myblog Git</strong> in this excerise.</li>
+<li>To commit the changes and push them to you GitHub repo, enter a name for your commit by describing the changes you made.</li>
+<li>Click <strong>Publish Branch</strong>. This button will now appear as <strong>Commit</strong> the next time you wish to push a change to GitHub. Finally, click <strong>Sync Changes</strong>.
+<a href="/posts/tutorials/blog/create-a-free-blog-tutorial/part3-publish-blog-live/myfirstcommit.png" target="_blank" rel="noopener noreferrer">
+<img src="/posts/tutorials/blog/create-a-free-blog-tutorial/part3-publish-blog-live/myfirstcommit.png" alt="In VS Code, edit your post, stage changes, commit to GitHUb and sync." style="display: block; margin: 0 auto;">
+</a></li>
+</ol>
+<p>Your edits have now been synced to the GitHub repo. Now that you know how to make edits you&rsquo;re now ready to publish you blog live!</p>
+<h2 id="deploy-your-blog-on-netlify">Deploy Your Blog on Netlify<a hidden class="anchor" aria-hidden="true" href="#deploy-your-blog-on-netlify">#</a></h2>
+<p>Now let’s get it online with Netlify.</p>
+<ol>
+<li>Log into Netlify. You&rsquo;ll need to createa team name.</li>
+<li>Click <strong>Add new project</strong> then <strong>Import an existing project</strong></li>
+<li>Choose GitHub and, if requested, authorize Netlify to access your account</li>
+<li>Select your repository (ex. <code>myblog</code>). Remmeber, the GitHub repo must be public. It is
+possible to set this to private as well, however we won&rsquo;t go over that today.</li>
+<li>In the next screen:
+<ul>
+<li>Assign <strong>Team</strong> to the team you created initially.</li>
+<li>For <strong>Project name</strong>, use the name of you website, although you can name it anything, as long as isn&rsquo;t already taken. This will be used as the base of your url. Ex. <code>learntechcafe-myblog</code> becomes <code>https://learntechcafe-myblog.netlify.app</code>. This can always be changed later if you change your mind.</li>
+<li><strong>Branch to deploy:</strong> leave as <code>main</code></li>
+<li><strong>Build command:</strong> hugo
+<a href="/posts/tutorials/blog/create-a-free-blog-tutorial/part3-publish-blog-live/netlifyconfig1.png" target="_blank" rel="noopener noreferrer">
+<img src="/posts/tutorials/blog/create-a-free-blog-tutorial/part3-publish-blog-live/netlifyconfig1.png" alt="Configuration settings for Netlify, image 1." style="display: block;">
+</a></li>
+<li><strong>Publish directory:</strong> public</li>
+<li>Next, click <strong>Add environment variables</strong>. For <strong>Key</strong> enter <code>HUGO_Version</code>. For <strong>Value</strong> you must get the Hugo version you are using from the terminal using the below command. It should look something like <code>0.148.1</code>.</li>
+</ul>
+<pre tabindex="0"><code>hugo version
+</code></pre> <a href="/posts/tutorials/blog/create-a-free-blog-tutorial/part3-publish-blog-live/netlifyconfig2.png" target="_blank" rel="noopener noreferrer">
+ <img src="/posts/tutorials/blog/create-a-free-blog-tutorial/part3-publish-blog-live/netlifyconfig2.png" alt="Configuration settings for Netflify, image 2" style="display: block;">
+ </a> 
+ * Click **Deploy Site**. The site name should be the project name you chose.
+</li>
+</ol>
 <p>Wait a minute or two while Netlify builds your blog. When it’s done, you’ll get a public URL like:</p>
-<p><a href="https://your-site-name.netlify.app">https://your-site-name.netlify.app</a></p>
+<p><code>https://your-site-name.netlify.app</code> (ex. <code>learntechcafe-myblog.netlify.app</code>)</p>
 <p>Open the link in your browser. Congrats — your blog is live!</p>
-<p><strong>Tip:</strong> You can rename your site under Site Settings &gt; Domain Management in Netlify.</p>
-<p>Update Your baseURL in hugo.yaml
-To make sure links work properly on the live site, update the baseURL parameter in your configuration file.</p>
-<p>Open hugo.yaml in VS Code</p>
-<p>Change:</p>
-<p>baseURL: &quot;&quot;</p>
-<p>to:</p>
-<p><code>baseURL: &quot;https://your-site-name.netlify.app/&quot;</code></p>
-<p>From now on you can save your changes in VS Code, stage your changes, and push them to GitHub by committing your changes. You can always commit changes via the terminal, however I recommend using the VS Code interface as it&rsquo;s easier for beginners to use.</p>
-<p>Insert image of staging an committing</p>
-<p>Once you’ve commited, you will see a Sync  option appear. Click sync. Netlify will automatically rebuild your site with the updated link structure. Refresh your browser to see your update. How cool is that?</p>
-<p><img src="/images/ABA2-min.png" alt="🤖" style="width:1.1em; height:1.1em; vertical-align: -0.2em; display: inline-block; margin: 0; padding: 0; border: 0;"> So cool!</p>
-<p>Optional: Add a Custom Domain</p>
-<p>Want a custom domain like mycoolblog.com?</p>
-<p>Purchase a domain from a registrar (e.g., Namecheap or Google Domains). Or you can just use Netlify to purchase a domain, here&rsquo;s how………. Your blog url will change automatically.</p>
-<p>If you buy your domain outside of Netlify you must do the following. In Netlify, go to Site Settings &gt; Domain Management &gt; Add Custom Domain.</p>
-<p>Follow the steps to point your domain to Netlify.</p>
-<p>Recap</p>
-<p>You just:
-Created a GitHub repo and pushed your Hugo blog code
-Connected GitHub to Netlify to publish your site
-Updated your Hugo configuration
-(Optionally) set a custom domain</p>
+<blockquote>
+<p><img src="/images/ABA2-min.png" alt="🤖" style="width:1.1em; height:1.1em; vertical-align: -0.2em; display: inline-block; margin: 0; padding: 0; border: 0;"> You can rename your site under <strong>Domain Management</strong>, <strong>Production domains</strong> in Netlify. Just click the <strong>Options</strong> button next to your new site, and select <strong>Edit project name</strong>.</p></blockquote>
+<h2 id="final-tweak">Final Tweak<a hidden class="anchor" aria-hidden="true" href="#final-tweak">#</a></h2>
+<p>Now that your blog is live, there is one last thing left to update. First you must update Your baseURL parameter in <code>hugo.yaml</code>, which ensures that links work properly on the live site.</p>
+<ul>
+<li>Open h<code>ugo.yaml</code> in VS Code</li>
+<li>Change: <code>baseURL: &quot;&quot; </code> to <code>baseURL: &quot;https://your-site-name.netlify.app/&quot;</code></li>
+</ul>
+<p>Done! Remeber, from now on you can save your changes in VS Code, stage your changes, and push them to GitHub by committing your changes. You can always commit changes via the terminal, however I recommend using the VS Code interface as it&rsquo;s easier for beginners to use.</p>
+<h2 id="optional-add-a-custom-domain">Optional: Add a Custom Domain<a hidden class="anchor" aria-hidden="true" href="#optional-add-a-custom-domain">#</a></h2>
+<p>Not a fan of the end of you url, <code>....netfliy.app</code>? Want a custom domain like <code>thisisthecoolestblogever.com</code>? Unfortunately, you&rsquo;ll have to pay for a custom domain. Luckily, most domain names will only cost you around $15-$20 CAD.</p>
+<p>If you decide you want a custom domain, you must purchase a domain from a registrar (e.g., Namecheap or Google Domains). Or you can just use Netlify to purchase a domain:</p>
+<p>In Netlify, go to <strong>Domain management</strong>, then <strong>Production domains</strong>. Click <strong>Add a domain</strong> then <strong>Buy a new domain</strong>. Search for an available domain name, and enter your payment information to purchase. You domain name will automatically be assigned to your new site (assuming you only have one project so far).</p>
+<h2 id="recap">Recap<a hidden class="anchor" aria-hidden="true" href="#recap">#</a></h2>
+<p>You just:</p>
+<ul>
+<li>Created a GitHub repo and pushed your Hugo blog code</li>
+<li>Connected GitHub to Netlify to publish your site</li>
+<li>Updated your Hugo configuration in <code>hugo.yaml</code></li>
+<li><em>(Optionally)</em> set a custom domain</li>
+</ul>
 <p>Your blog is now live and ready to share with the world!</p>
-<p>Coming Up Next</p>
-<p>In Part 4, we’ll cover how to write blog posts using Markdown, including:
-Headers, bold, italic
-Code blocks and inline code
-Links, images, and blockquotes</p>
+<h2 id="coming-up-next">Coming Up Next<a hidden class="anchor" aria-hidden="true" href="#coming-up-next">#</a></h2>
+<p>In Part 4, we’ll cover how to write blog posts using Markdown, including:</p>
+<ul>
+<li>Headers, bold, italic</li>
+<li>Code blocks and inline code</li>
+<li>Links, images, and blockquotes</li>
+</ul>
 <p>Have a question or want to show off your blog? 💬 <a href="hello@learntechcafe.com">Send us a message</a> — we’d love to see what you’re working on!</p>
 
 
