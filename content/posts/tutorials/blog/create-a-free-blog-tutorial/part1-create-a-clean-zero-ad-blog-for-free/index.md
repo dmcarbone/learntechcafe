@@ -101,7 +101,7 @@ This is what _LearnTechCafe_ is all about: **building digital skills on a budget
 ---
 
 ## Coming Up Next
-In Part 2 of our Create-a-Free-Blog Tutorial, we'll walk you through installing Hugo and building your first blog post! You'll get to see your blog in your browser, and we'll show you how to customize some basic features to get your blog ready to go live.
+In [Part 2](https://learntechcafe.com/posts/tutorials/blog/create-a-free-blog-tutorial/part2-install-hugo/) of our Create-a-Free-Blog Tutorial, we'll walk you through installing Hugo and building your first blog post! You'll get to see your blog in your browser, and we'll show you how to customize some basic features to get your blog ready to go live.
 
 ---
 

@@ -6,27 +6,69 @@
     <description>Recent content in Tags on LearnTechCafe</description>
     <generator>Hugo -- 0.148.1</generator>
     <language>en-CA</language>
-    <lastBuildDate>Sun, 03 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 04 Aug 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Ad-Free Blog</title>
-      <link>http://localhost:1313/tags/ad-free-blog/</link>
-      <pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/ad-free-blog/</guid>
-      <description></description>
-    </item>
     <item>
       <title>Beginner</title>
       <link>http://localhost:1313/tags/beginner/</link>
-      <pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 04 Aug 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/beginner/</guid>
       <description></description>
     </item>
     <item>
       <title>Blogging Tutorial</title>
       <link>http://localhost:1313/tags/blogging-tutorial/</link>
-      <pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 04 Aug 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/blogging-tutorial/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Free Blog Hosting</title>
+      <link>http://localhost:1313/tags/free-blog-hosting/</link>
+      <pubDate>Mon, 04 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/free-blog-hosting/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Github</title>
+      <link>http://localhost:1313/tags/github/</link>
+      <pubDate>Mon, 04 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/github/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hugo</title>
+      <link>http://localhost:1313/tags/hugo/</link>
+      <pubDate>Mon, 04 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/hugo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Netlify</title>
+      <link>http://localhost:1313/tags/netlify/</link>
+      <pubDate>Mon, 04 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/netlify/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Publish Your Blog</title>
+      <link>http://localhost:1313/tags/publish-your-blog/</link>
+      <pubDate>Mon, 04 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/publish-your-blog/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Static Site Generator</title>
+      <link>http://localhost:1313/tags/static-site-generator/</link>
+      <pubDate>Mon, 04 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/static-site-generator/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ad-Free Blog</title>
+      <link>http://localhost:1313/tags/ad-free-blog/</link>
+      <pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/ad-free-blog/</guid>
       <description></description>
     </item>
     <item>
@@ -37,45 +79,10 @@
       <description></description>
     </item>
     <item>
-      <title>Free Blog Hosting</title>
-      <link>http://localhost:1313/tags/free-blog-hosting/</link>
-      <pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/free-blog-hosting/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Github</title>
-      <link>http://localhost:1313/tags/github/</link>
-      <pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/github/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Hugo</title>
-      <link>http://localhost:1313/tags/hugo/</link>
-      <pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/hugo/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Markdown</title>
       <link>http://localhost:1313/tags/markdown/</link>
       <pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/markdown/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Netlify</title>
-      <link>http://localhost:1313/tags/netlify/</link>
-      <pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/netlify/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Static Site Generator</title>
-      <link>http://localhost:1313/tags/static-site-generator/</link>
-      <pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/static-site-generator/</guid>
       <description></description>
     </item>
   </channel>
