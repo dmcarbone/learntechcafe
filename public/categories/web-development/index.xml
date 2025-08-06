@@ -6,14 +6,14 @@
     <description>Recent content in Web Development on LearnTechCafe</description>
     <generator>Hugo -- 0.148.1</generator>
     <language>en-CA</language>
-    <lastBuildDate>Mon, 04 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 05 Aug 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/web-development/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Publish Your Blog with GitHub and Netlify</title>
       <link>http://localhost:1313/posts/tutorials/blog/create-a-free-blog-tutorial/part3-publish-blog-live/</link>
-      <pubDate>Mon, 04 Aug 2025 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 05 Aug 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/tutorials/blog/create-a-free-blog-tutorial/part3-publish-blog-live/</guid>
-      <description>Part 3 of our Create-a-Free-Blog Tutorial. Learn how to publish your blog online using GitHub and Netlify — totally free and ad-free.</description>
+      <description>Part 3 of the Create-a-Free-Blog series: Step-by-step guide to hosting your Hugo blog on GitHub and deploying it with Netlify — 100% free, ad-free, and beginner-friendly.</description>
     </item>
     <item>
       <title>Install Hugo, Pick a Theme, and View Your New Blog Locally</title>
